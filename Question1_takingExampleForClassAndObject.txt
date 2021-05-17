@@ -1,0 +1,18 @@
+Android Homeworks 
+(17/05/2021)
+
+Question:
+Hãy lấy 1 vài ví dụ về class và object ở trong thực tế, với các phương thức, thuộc tính
+
+*
+- Class: Rifle => Object: M4A1s, AK47, Galil AR... là các mẫu súng thuộc dòng Rifle với 
+                                      + Các thuộc tính như số đạn (ammo), sức sát thương (damage) 
+                                      + Phương thức là bắn (shoot), thay đạn (reload).
+
+- Class: Vehilce = > Object: Motorbike, car... là các phương tiện lưu thông với 
+                                          + Các thuộc tính như giá (price), tốc độ (speed),
+                                          + Các phương thức là chạy (run), bấm còi (warn).
+
+- Class: Dog => Object: các loài chó khác nhau như chó fox, chó béc giê, chó ta...
+                                     + các thuộc tính như tuổi (age), màu (color), kích cỡ (size) 
+                                     + cùng với các phương thức như sủa (bark), ăn (eat), ngủ (sleep).
