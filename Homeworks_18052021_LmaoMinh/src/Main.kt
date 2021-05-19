@@ -1,17 +1,20 @@
 package lmaominh
 
 abstract class Champion {
-    abstract var name : String
-    abstract var hp : Int
-    abstract var armor : Int
-    abstract var resistance  : String
+    abstract var name: String
+    abstract var hp: Int
+    abstract var armor: Int
+    abstract var resistance: String
 
-    fun introduce() = println("This is $name. He has 3 values about [HP, Armor, Resistance] are [$hp, $armor, $resistance]")
-    fun qFunction() = println("$name is pressing Q button")
-    fun wFunction() = println("$name is pressing W button")
-    fun eFunction() = println("$name is pressing E button")
-    fun rFunction() = println("$name is pressing R button")
+    fun introduce() =
+        println("This is $name. He has 3 values about [HP, Armor, Resistance] are [$hp, $armor, $resistance]")
+
+    fun qFunction(q: String) = println("$name is pressing Q button to use $q skill")
+    fun wFunction(w: String) = println("$name is pressing W button to use $w skill")
+    fun eFunction(e: String) = println("$name is pressing E button to use $e skill")
+    fun rFunction(r: String) = println("$name is pressing R button to use $r skill")
 }
+
 
 class M4A1s() : Champion(){
     override var name : String = "M4A1s Champion"
@@ -45,26 +48,26 @@ fun main() {
     println("WELCOME TO GAME LMAO MINH. THIS GAME COPIES LIEN^ QUAN^")
     println("===========================================")
     M4A1s().introduce()
-    M4A1s().qFunction()
-    M4A1s().wFunction()
-    M4A1s().eFunction()
-    M4A1s().rFunction()
+    M4A1s().qFunction("scream")
+    M4A1s().wFunction("fast reloading")
+    M4A1s().eFunction("save bullets")
+    M4A1s().rFunction("disconnect")
     println("===========================================")
     AK47().introduce()
-    AK47().qFunction()
-    AK47().wFunction()
-    AK47().eFunction()
-    AK47().rFunction()
+    AK47().qFunction("chiu")
+    AK47().wFunction("khong choi LUL")
+    AK47().eFunction("nen ko biet^' gi`")
+    AK47().rFunction("chiu x2")
     println("===========================================")
     AWP().introduce()
-    AWP().qFunction()
-    AWP().wFunction()
-    AWP().eFunction()
-    AWP().rFunction()
+    AWP().qFunction("game nhai lien quan")
+    AWP().wFunction("game thoi trang")
+    AWP().eFunction("lam trau?")
+    AWP().rFunction("thay` giao ba")
     println("===========================================")
     Deagle().introduce()
-    Deagle().qFunction()
-    Deagle().wFunction()
-    Deagle().eFunction()
-    Deagle().rFunction()
+    Deagle().qFunction("lien quan > LUL")
+    Deagle().wFunction("Lmao minh")
+    Deagle().eFunction("nhai skill cua dota")
+    Deagle().rFunction("bat truoc y xi` cach build do` cua dota")
 }
