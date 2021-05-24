@@ -1,0 +1,2 @@
+include ':app'
+rootProject.name = "androidhomeworks_24052021"
