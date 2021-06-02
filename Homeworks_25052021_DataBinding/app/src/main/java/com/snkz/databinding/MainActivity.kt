@@ -52,7 +52,7 @@ class MainActivity : AppCompatActivity() {
                 } else {
                     mainBinding.btnEntername.setOnClickListener {
                         val intent : Intent = Intent(this@MainActivity, ShowNameActivity::class.java)
-                        intent.putExtra("name_user", name)
+                        intent.putExtra(user_name, mainBinding.edtEntername.text.toString())
                         startActivity(intent)
                         Toast.makeText(this@MainActivity, "🎉 SENDING NAME SUCCESS! 🎉", Toast.LENGTH_LONG).show()
                     }
@@ -67,5 +67,9 @@ class MainActivity : AppCompatActivity() {
         super.onResume()
         Log.d(tag, "onResume")
         Toast.makeText(this, "❤ Welcome Back ❤", Toast.LENGTH_LONG ).show()
+    }
+
+    companion object {
+        private const val  user_name : String = "user_name"
     }
 }
