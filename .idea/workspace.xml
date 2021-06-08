@@ -2,11 +2,41 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8fd15545-7c7e-488f-92f9-cedc55658750" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/Homeworks_18052021_LmaoMinh/src/Main.kt" beforeDir="false" afterPath="$PROJECT_DIR$/Homeworks_18052021_LmaoMinh/src/Main.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Homeworks_19052021_DataClass/src/Main.kt" beforeDir="false" afterPath="$PROJECT_DIR$/Homeworks_19052021_DataClass/src/Main.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Homeworks_20052021_Constructor/src/Main.kt" beforeDir="false" afterPath="$PROJECT_DIR$/Homeworks_20052021_Constructor/src/Main.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Homeworks_25052021_DataBinding/app/src/main/java/com/snkz/databinding/MainActivity.kt" beforeDir="false" afterPath="$PROJECT_DIR$/Homeworks_25052021_DataBinding/app/src/main/java/com/snkz/databinding/MainActivity.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Homeworks_25052021_DataBinding/app/src/main/java/com/snkz/databinding/Profile.kt" beforeDir="false" afterPath="$PROJECT_DIR$/Homeworks_25052021_DataBinding/app/src/main/java/com/snkz/databinding/Profile.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Homeworks_24052021_Layout/app/src/main/res/drawable/addfolder.png" beforeDir="false" afterPath="$PROJECT_DIR$/Homeworks_24052021_Layout/app/src/main/res/drawable/main_image_addfolder.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Homeworks_24052021_Layout/app/src/main/res/drawable/avatar.png" beforeDir="false" afterPath="$PROJECT_DIR$/Homeworks_24052021_Layout/app/src/main/res/drawable/main_image_avatar.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Homeworks_24052021_Layout/app/src/main/res/drawable/backgound2.png" beforeDir="false" afterPath="$PROJECT_DIR$/Homeworks_24052021_Layout/app/src/main/res/drawable/main_image_background2.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Homeworks_24052021_Layout/app/src/main/res/drawable/background1.png" beforeDir="false" afterPath="$PROJECT_DIR$/Homeworks_24052021_Layout/app/src/main/res/drawable/main_image_background1.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Homeworks_24052021_Layout/app/src/main/res/drawable/background10.png" beforeDir="false" afterPath="$PROJECT_DIR$/Homeworks_24052021_Layout/app/src/main/res/drawable/main_image_background10.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Homeworks_24052021_Layout/app/src/main/res/drawable/background11.png" beforeDir="false" afterPath="$PROJECT_DIR$/Homeworks_24052021_Layout/app/src/main/res/drawable/main_image_background11.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Homeworks_24052021_Layout/app/src/main/res/drawable/background3.png" beforeDir="false" afterPath="$PROJECT_DIR$/Homeworks_24052021_Layout/app/src/main/res/drawable/main_image_background3.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Homeworks_24052021_Layout/app/src/main/res/drawable/background4.png" beforeDir="false" afterPath="$PROJECT_DIR$/Homeworks_24052021_Layout/app/src/main/res/drawable/main_image_background4.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Homeworks_24052021_Layout/app/src/main/res/drawable/background5.png" beforeDir="false" afterPath="$PROJECT_DIR$/Homeworks_24052021_Layout/app/src/main/res/drawable/main_image_background5.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Homeworks_24052021_Layout/app/src/main/res/drawable/background6.png" beforeDir="false" afterPath="$PROJECT_DIR$/Homeworks_24052021_Layout/app/src/main/res/drawable/main_image_background6.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Homeworks_24052021_Layout/app/src/main/res/drawable/background7.png" beforeDir="false" afterPath="$PROJECT_DIR$/Homeworks_24052021_Layout/app/src/main/res/drawable/main_image_background7.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Homeworks_24052021_Layout/app/src/main/res/drawable/background8.png" beforeDir="false" afterPath="$PROJECT_DIR$/Homeworks_24052021_Layout/app/src/main/res/drawable/main_image_background8.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Homeworks_24052021_Layout/app/src/main/res/drawable/background9.png" beforeDir="false" afterPath="$PROJECT_DIR$/Homeworks_24052021_Layout/app/src/main/res/drawable/main_image_background9.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Homeworks_24052021_Layout/app/src/main/res/drawable/button_hireme.png" beforeDir="false" afterPath="$PROJECT_DIR$/Homeworks_24052021_Layout/app/src/main/res/drawable/main_button_hireme.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Homeworks_24052021_Layout/app/src/main/res/drawable/flooter.png" beforeDir="false" afterPath="$PROJECT_DIR$/Homeworks_24052021_Layout/app/src/main/res/drawable/main_image_flooter.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Homeworks_24052021_Layout/app/src/main/res/drawable/heart.png" beforeDir="false" afterPath="$PROJECT_DIR$/Homeworks_24052021_Layout/app/src/main/res/drawable/main_icon_heart.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Homeworks_24052021_Layout/app/src/main/res/drawable/icon_circle.png" beforeDir="false" afterPath="$PROJECT_DIR$/Homeworks_24052021_Layout/app/src/main/res/drawable/main_icon_circle.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Homeworks_24052021_Layout/app/src/main/res/drawable/icon_facebook.png" beforeDir="false" afterPath="$PROJECT_DIR$/Homeworks_24052021_Layout/app/src/main/res/drawable/main_icon_facebook.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Homeworks_24052021_Layout/app/src/main/res/drawable/icon_global.png" beforeDir="false" afterPath="$PROJECT_DIR$/Homeworks_24052021_Layout/app/src/main/res/drawable/main_icon_global.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Homeworks_24052021_Layout/app/src/main/res/drawable/icon_insta.png" beforeDir="false" afterPath="$PROJECT_DIR$/Homeworks_24052021_Layout/app/src/main/res/drawable/main_icon_insta.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Homeworks_24052021_Layout/app/src/main/res/drawable/icon_twitter.png" beforeDir="false" afterPath="$PROJECT_DIR$/Homeworks_24052021_Layout/app/src/main/res/drawable/main_icon_twitter.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Homeworks_24052021_Layout/app/src/main/res/drawable/information.png" beforeDir="false" afterPath="$PROJECT_DIR$/Homeworks_24052021_Layout/app/src/main/res/drawable/main_image_information.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Homeworks_24052021_Layout/app/src/main/res/drawable/label.png" beforeDir="false" afterPath="$PROJECT_DIR$/Homeworks_24052021_Layout/app/src/main/res/drawable/main_label.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Homeworks_24052021_Layout/app/src/main/res/drawable/label2.png" beforeDir="false" afterPath="$PROJECT_DIR$/Homeworks_24052021_Layout/app/src/main/res/drawable/main_label2.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Homeworks_24052021_Layout/app/src/main/res/drawable/menubutton.png" beforeDir="false" afterPath="$PROJECT_DIR$/Homeworks_24052021_Layout/app/src/main/res/drawable/main_image_buttonmenu.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Homeworks_24052021_Layout/app/src/main/res/drawable/message.png" beforeDir="false" afterPath="$PROJECT_DIR$/Homeworks_24052021_Layout/app/src/main/res/drawable/main_image_message.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Homeworks_24052021_Layout/app/src/main/res/drawable/share.png" beforeDir="false" afterPath="$PROJECT_DIR$/Homeworks_24052021_Layout/app/src/main/res/drawable/main_image_share.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Homeworks_25052021_DataBinding/app/src/main/res/drawable/avatar.png" beforeDir="false" afterPath="$PROJECT_DIR$/Homeworks_25052021_DataBinding/app/src/main/res/drawable/main_image_avatar.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Homeworks_25052021_DataBinding/app/src/main/res/drawable/backbutton.png" beforeDir="false" afterPath="$PROJECT_DIR$/Homeworks_25052021_DataBinding/app/src/main/res/drawable/main_button_back.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Homeworks_25052021_DataBinding/app/src/main/res/drawable/cheems.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/Homeworks_25052021_DataBinding/app/src/main/res/drawable/main_image_cheems.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Homeworks_25052021_DataBinding/app/src/main/res/drawable/menu.png" beforeDir="false" afterPath="$PROJECT_DIR$/Homeworks_25052021_DataBinding/app/src/main/res/drawable/main_icon_menu.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Homeworks_25052021_DataBinding/app/src/main/res/drawable/nmh.png" beforeDir="false" afterPath="$PROJECT_DIR$/Homeworks_25052021_DataBinding/app/src/main/res/drawable/main_image_nmh.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Homeworks_25052021_DataBinding/app/src/main/res/drawable/que.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/Homeworks_25052021_DataBinding/app/src/main/res/drawable/main_image_que.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Homeworks_25052021_DataBinding/app/src/main/res/layout/activity_main.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Homeworks_25052021_DataBinding/app/src/main/res/layout/activity_main.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Question2_coding/src/Main.kt" beforeDir="false" afterPath="$PROJECT_DIR$/Question2_coding/src/Main.kt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -53,10 +83,14 @@
     <option name="version" value="2" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="549" y="154" key="FileChooserDialogImpl" timestamp="1623034874613">
+    <state x="549" y="154" key="FileChooserDialogImpl" timestamp="1623066065453">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="549" y="154" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1623034874613" />
+    <state x="549" y="154" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1623066065453" />
+    <state x="445" y="125" key="git4idea.branch.GitSmartOperationDialog" timestamp="1623156128188">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="445" y="125" key="git4idea.branch.GitSmartOperationDialog/0.0.1536.824@0.0.1536.824" timestamp="1623156128188" />
     <state x="209" y="96" key="new project wizard" timestamp="1621258899141">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
