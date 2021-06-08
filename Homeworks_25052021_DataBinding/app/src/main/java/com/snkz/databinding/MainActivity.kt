@@ -13,7 +13,7 @@ import com.snkz.databinding.databinding.ActivityMainBinding
 
 
 class MainActivity : AppCompatActivity() {
-    private  var tag : String = "WelcomeActivity"
+    private var tag: String = "WelcomeActivity"
     private lateinit var mainBinding: ActivityMainBinding
 
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -66,7 +66,7 @@ class MainActivity : AppCompatActivity() {
     override fun onResume() {
         super.onResume()
         Log.d(tag, "onResume")
-        Toast.makeText(this, "❤ Welcome Back ❤", Toast.LENGTH_LONG ).show()
+        Toast.makeText(this, "❤ Welcome Back ❤", Toast.LENGTH_LONG).show()
     }
 
     companion object {

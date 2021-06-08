@@ -7,7 +7,7 @@ abstract class Champion {
     abstract var resistance: String
 
     fun introduce() =
-        println("This is $name. He has 3 values about [HP, Armor, Resistance] are [$hp, $armor, $resistance]")
+            println("This is $name. He has 3 values about [HP, Armor, Resistance] are [$hp, $armor, $resistance]")
 
     fun qFunction(q: String) = println("$name is pressing Q button to use $q skill")
     fun wFunction(w: String) = println("$name is pressing W button to use $w skill")
@@ -16,29 +16,29 @@ abstract class Champion {
 }
 
 
-class M4A1s() : Champion(){
-    override var name : String = "M4A1s Champion"
+class M4A1s() : Champion() {
+    override var name: String = "M4A1s Champion"
     override var hp: Int = 25
     override var armor: Int = 75
     override var resistance: String = "2 taps at head"
 }
 
-class AK47() : Champion(){
-    override var name : String = "AK47 Champion"
+class AK47() : Champion() {
+    override var name: String = "AK47 Champion"
     override var hp: Int = 30
     override var armor: Int = 90
     override var resistance: String = "1 taps elite"
 }
 
-class AWP() : Champion(){
-    override var name : String = "AWP Champion"
+class AWP() : Champion() {
+    override var name: String = "AWP Champion"
     override var hp: Int = 10
     override var armor: Int = 30
     override var resistance: String = "1 bullet 1 enemy"
 }
 
-class Deagle() : Champion(){
-    override var name : String = "DE Champion"
+class Deagle() : Champion() {
+    override var name: String = "DE Champion"
     override var hp: Int = 7
     override var armor: Int = 35
     override var resistance: String = "AWP mini"
