@@ -22,10 +22,14 @@
             android:orientation="horizontal">
 
             <ImageButton
-                android:id="@+id/image_btn_back"
+                android:id="@+id/imagebutton_main_back"
                 android:layout_width="wrap_content"
                 android:layout_height="30dp"
                 android:layout_marginLeft="10dp"
+<<<<<<< HEAD
+                android:src="@drawable/main_button_back" />
+
+=======
                 android:src="@drawable/backbutton" />
             <EditText
                 android:id="@+id/edt_entername"
@@ -37,6 +41,7 @@
                 android:textColor="#92E630"
                 android:background="@drawable/custom_edt"
                 android:gravity="center"/>
+>>>>>>> 7c859d9219412404c47ec6f817e502a6e63d7222
             <ImageButton
                 android:id="@+id/image_btn_menu"
                 android:layout_width="wrap_content"
@@ -58,7 +63,7 @@
 
 
         <de.hdodenhof.circleimageview.CircleImageView xmlns:app="http://schemas.android.com/apk/res-auto"
-            android:id="@+id/profile_image"
+            android:id="@+id/image_main_avatar"
             android:layout_width="100dp"
             android:layout_height="100dp"
             android:layout_gravity="center"
@@ -68,7 +73,7 @@
             app:civ_border_width="2dp" />
 
         <TextView
-            android:id="@+id/tv_name"
+            android:id="@+id/textview_main_name"
             android:layout_width="wrap_content"
             android:layout_height="40dp"
             android:layout_gravity="center"
@@ -79,7 +84,7 @@
             android:textColor="#000000"/>
 
         <TextView
-            android:id="@+id/tv_school"
+            android:id="@+id/textview_main_school"
             android:layout_width="wrap_content"
             android:layout_height="25dp"
             android:layout_gravity="center"
@@ -88,7 +93,7 @@
             android:textColor="#000000"/>
 
         <TextView
-            android:id="@+id/tv_country"
+            android:id="@+id/textview_main_country"
             android:layout_width="wrap_content"
             android:layout_height="25dp"
             android:layout_gravity="center"
@@ -107,13 +112,13 @@
             android:layout_gravity="center"
             android:clickable="false" />
         <androidx.constraintlayout.widget.Group
-            android:id="@+id/group"
+            android:id="@+id/group_main_information"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            app:constraint_referenced_ids="btn_shownumber,group_information"
+            app:constraint_referenced_ids="btn_shownumber,linearlayout_main_information"
             />
         <Button
-            android:id="@+id/btn_shownumber"
+            android:id="@+id/button_main_shownumber"
             android:layout_width="120dp"
             android:layout_height="50dp"
             android:text="Show information "
@@ -153,7 +158,7 @@
         </LinearLayout>
 
         <LinearLayout
-            android:id="@+id/group_information"
+            android:id="@+id/linearlayout_main_information"
             android:layout_width="240dp"
             android:layout_height="40dp"
             android:layout_gravity="center"
@@ -161,7 +166,7 @@
             android:visibility="gone">
 
             <TextView
-                android:id="@+id/tv_numberofphotos"
+                android:id="@+id/textview_main_numberofphotos"
                 android:layout_width="80dp"
                 android:layout_height="30dp"
                 android:gravity="center"
@@ -171,7 +176,7 @@
                 android:textStyle="bold" />
 
             <TextView
-                android:id="@+id/tv_numberoffollowers"
+                android:id="@+id/textview_main_numberoffollowers"
                 android:layout_width="80dp"
                 android:layout_height="30dp"
                 android:gravity="center"
@@ -181,7 +186,7 @@
                 android:textStyle="bold" />
 
             <TextView
-                android:id="@+id/tv_numberoffollows"
+                android:id="@+id/textview_main_numberoffollows"
                 android:layout_width="80dp"
                 android:layout_height="30dp"
                 android:gravity="center"
@@ -200,7 +205,7 @@
             <ImageView
                 android:layout_width="180dp"
                 android:layout_height="match_parent"
-                android:src="@drawable/que" />
+                android:src="@drawable/main_image_que" />
 
             <LinearLayout
                 android:layout_width="match_parent"
@@ -210,12 +215,12 @@
                 <ImageView
                     android:layout_width="match_parent"
                     android:layout_height="140dp"
-                    android:src="@drawable/nmh" />
+                    android:src="@drawable/main_image_nmh" />
 
                 <ImageView
                     android:layout_width="match_parent"
                     android:layout_height="140dp"
-                    android:src="@drawable/cheems" />
+                    android:src="@drawable/main_image_cheems" />
             </LinearLayout>
         </LinearLayout>
     </LinearLayout>

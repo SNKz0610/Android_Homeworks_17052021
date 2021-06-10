@@ -58,6 +58,4 @@ fun main() {
     becgie.bark()
     becgie.eat()
     becgie.sleep()
-
-
 }
