@@ -5,7 +5,7 @@
     xmlns:tools="http://schemas.android.com/tools">
     <data>
         <variable
-            name="bindingshow"
+            name="bindingshowinformationactivity"
             type="com.snkz.appkhaibaoyte.User" />
     </data>
 

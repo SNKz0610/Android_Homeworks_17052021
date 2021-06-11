@@ -19,7 +19,7 @@ class MainActivity : AppCompatActivity() {
         mainBinding = DataBindingUtil.setContentView(this, R.layout.activity_main)
 
         var person = User("", "", "", "", "", "", "")
-        mainBinding.bindingmain = person
+        mainBinding.bindingmainactiviTy = person
 
         submit()
     }
