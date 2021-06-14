@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+    <data>
+        <variable
+            name="get_user_information"
+            type="com.snkz.appkhaibaoyte.User" />
+    </data>
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ShowInformationActivity"
+    android:orientation="vertical"
+    android:background="#1D77C6">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="Phiếu khai báo y tế"
+        android:textSize="23dp"
+        android:textStyle="bold"
+        android:layout_marginTop="20dp"
+        android:gravity="center"
+        android:textColor="#000000"/>
+
+    <TextView
+        android:id="@+id/textview_activityshow_document"
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/showactivity_customtextview"
+        android:textSize="20dp"
+        android:textColor="#000000"
+        android:padding="20dp"/>
+
+    <Button
+        android:id="@+id/button_activityshow_back"
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:backgroundTint="#9EF344"
+        android:text="BACK"
+        android:textColor="#000000"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"/>
+
+</LinearLayout>
+</layout>

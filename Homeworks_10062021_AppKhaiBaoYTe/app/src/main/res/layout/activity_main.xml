@@ -1,0 +1,196 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <data>
+        <variable
+            name="user_information"
+            type="com.snkz.appkhaibaoyte.User" />
+    </data>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="#1D77C6"
+            tools:context=".MainActivity">
+
+            <ImageView
+                android:id="@+id/imageview_mainactivity_background"
+                android:layout_width="match_parent"
+                android:layout_height="300dp"
+                android:src="@drawable/mainactivity_image_background"
+                app:layout_constraintTop_toTopOf="parent"
+                tools:layout_editor_absoluteX="0dp" />
+
+            <TextView
+                android:id="@+id/textview_mainactivity_title"
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:background="#49D2E3"
+                android:paddingLeft="10dp"
+                android:text="I> Khai báo thông tin cá nhân"
+                android:textColor="#000000"
+                android:textSize="18dp"
+                android:textStyle="bold"
+                app:layout_constraintTop_toBottomOf="@id/imageview_mainactivity_background" />
+
+            <EditText
+                android:id="@+id/edittext_mainactivity_name"
+                android:layout_width="300dp"
+                android:layout_height="40dp"
+                android:layout_marginStart="28dp"
+                android:layout_marginTop="24dp"
+                android:background="@drawable/mainactivity_customedittext"
+                android:drawableStart="@drawable/ic_baseline_person_24"
+                android:hint="  Nhập tên của bạn "
+                android:paddingLeft="20dp"
+                android:textColor="#000000"
+                android:textSize="20dp"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/textview_mainactivity_title" />
+
+            <EditText
+                android:id="@+id/edittext_mainactivity_dob"
+                android:layout_width="300dp"
+                android:layout_height="40dp"
+                android:layout_marginStart="30dp"
+                android:layout_marginTop="15dp"
+                android:background="@drawable/mainactivity_customedittext"
+                android:foregroundGravity="center_horizontal"
+                android:hint="  dd/ mm/ yyyy "
+                android:paddingLeft="20dp"
+                android:textColor="#000000"
+                android:textSize="18dp"
+                android:drawableStart="@drawable/ic_baseline_calendar_today_24"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/edittext_mainactivity_name" />
+
+            <RadioGroup
+                android:id="@+id/groupradio_mainactivity_sex"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="40dp"
+                android:layout_marginTop="5dp"
+                android:orientation="horizontal"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/edittext_mainactivity_dob">
+
+                <RadioButton
+                    android:id="@+id/radio_female"
+                    android:layout_width="80dp"
+                    android:layout_height="match_parent"
+                    android:checked="true"
+                    android:text="Nữ"
+                    android:textColor="#000000"
+                    android:textSize="20dp" />
+
+                <RadioButton
+                    android:id="@+id/radio_male"
+                    android:layout_width="100dp"
+                    android:layout_height="match_parent"
+                    android:text="Nam"
+                    android:textColor="#000000"
+                    android:textSize="20dp" />
+            </RadioGroup>
+
+            <EditText
+                android:id="@+id/edittext_mainactivity_address"
+                android:layout_width="300dp"
+                android:layout_height="40dp"
+                android:layout_marginStart="30dp"
+                android:layout_marginTop="5dp"
+                android:background="@drawable/mainactivity_customedittext"
+                android:foregroundGravity="center_horizontal"
+                android:hint="  Nhập địa chỉ của bạn"
+                android:paddingLeft="20dp"
+                android:textColor="#000000"
+                android:textSize="18dp"
+                android:drawableStart="@drawable/ic_baseline_home_24"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/groupradio_mainactivity_sex" />
+
+            <EditText
+                android:id="@+id/edittext_mainactivity_phone"
+                android:layout_width="300dp"
+                android:layout_height="40dp"
+                android:layout_marginStart="30dp"
+                android:layout_marginTop="15dp"
+                android:background="@drawable/mainactivity_customedittext"
+                android:foregroundGravity="center_horizontal"
+                android:hint="  Nhập số điện thoại"
+                android:paddingLeft="20dp"
+                android:textColor="#000000"
+                android:textSize="18dp"
+                android:drawableStart="@drawable/ic_baseline_local_phone_24"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/edittext_mainactivity_address" />
+
+            <EditText
+                android:id="@+id/edittext_mainactivity_travel"
+                android:layout_width="300dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="30dp"
+                android:layout_marginTop="15dp"
+                android:background="@drawable/mainactivity_customedittext"
+                android:foregroundGravity="center_horizontal"
+                android:gravity="start|top"
+                android:hint="🏃‍♂ Bạn đã đi những đâu trong 24H trước?"
+                android:lines="10"
+                android:padding="20dp"
+                android:textColor="#000000"
+                android:textSize="18dp"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/edittext_mainactivity_phone" />
+
+
+            <RadioGroup
+                android:id="@+id/groupradio_mainactivity_checkmeeeting"
+                android:layout_width="300dp"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="30dp"
+                android:layout_marginTop="20dp"
+                android:background="#CAEEFF"
+                android:orientation="vertical"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/edittext_mainactivity_travel">
+
+                <RadioButton
+                    android:id="@+id/radio_met"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:checked="true"
+                    android:text="Đã tiếp xúc với 1 trong số các bệnh nhân F1 /F2 /F3"
+                    android:textColor="#000000"
+                    android:textSize="15dp" />
+
+                <RadioButton
+                    android:id="@+id/radio_unmet"
+                    android:layout_width="100dp"
+                    android:layout_height="match_parent"
+                    android:text="Clear"
+                    android:textColor="#000000"
+                    android:textSize="15dp" />
+            </RadioGroup>
+
+
+            <Button
+                android:id="@+id/button_activitmain_submit"
+                android:layout_width="150dp"
+                android:layout_height="50dp"
+                android:layout_marginLeft="105dp"
+                android:layout_marginTop="30dp"
+                android:layout_marginBottom="30dp"
+                android:backgroundTint="#68FF6E"
+                android:text="submit"
+                android:textColor="#000000"
+                android:textSize="20dp"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/groupradio_mainactivity_checkmeeeting" />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </ScrollView>
+</layout>
