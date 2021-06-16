@@ -15,7 +15,7 @@
 12        android:allowBackup="true"
 12-->D:\Nam 4- ki 2\AIBLES_GO\Chapter\Android_Homeworks_17052021\Homeworks_14062021_FragmentLifeCycle\app\src\main\AndroidManifest.xml:6:9-35
 13        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
-13-->[androidx.core:core:1.5.0] C:\Users\black\.gradle\caches\transforms-2\files-2.1\8303caa4e5d6b7b04220c6cd65e7567c\core-1.5.0\AndroidManifest.xml:24:18-86
+13-->[androidx.core:core:1.5.0] C:\Users\black\.gradle\caches\transforms-2\files-2.1\6305395914a46f058f2ec5409b08f10c\core-1.5.0\AndroidManifest.xml:24:18-86
 14        android:debuggable="true"
 15        android:icon="@mipmap/ic_launcher"
 15-->D:\Nam 4- ki 2\AIBLES_GO\Chapter\Android_Homeworks_17052021\Homeworks_14062021_FragmentLifeCycle\app\src\main\AndroidManifest.xml:7:9-43
