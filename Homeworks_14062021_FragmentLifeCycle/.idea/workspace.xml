@@ -1,22 +1,62 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+<<<<<<< HEAD
   <component name="ChangeListManager">
     <list default="true" id="f433b5bd-110a-4d58-9eca-a105facda951" name="Default Changelist" comment="" />
+=======
+  <component name="AndroidLayouts">
+    <shared>
+      <config />
+    </shared>
+  </component>
+  <component name="AndroidLogFilters">
+    <option name="TOOL_WINDOW_CUSTOM_FILTER" value="Fragment" />
+    <option name="TOOL_WINDOW_LOG_LEVEL" value="debug" />
+    <option name="TOOL_WINDOW_CONFIGURED_FILTER" value="Show only selected application" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="2f17637c-ee8b-409e-bdc4-afc21e83cf6f" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/app/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/snkz/fragmentlifecycle/FragmentA.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/snkz/fragmentlifecycle/FragmentA.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/snkz/fragmentlifecycle/MainActivity.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/snkz/fragmentlifecycle/MainActivity.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/fragment_a.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/fragment_a.xml" afterDir="false" />
+    </list>
+>>>>>>> refs/remotes/origin/develop
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+<<<<<<< HEAD
   <component name="ExecutionTargetManager" SELECTED_TARGET="device_and_snapshot_combo_box_target[]" />
+=======
+  <component name="ExecutionTargetManager" SELECTED_TARGET="device_and_snapshot_combo_box_target[K3V4C18C05001899]" />
+>>>>>>> refs/remotes/origin/develop
   <component name="ExternalProjectsData">
     <projectState path="$PROJECT_DIR$">
       <ProjectState />
     </projectState>
   </component>
+<<<<<<< HEAD
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
   <component name="ProjectId" id="1u1T57ldPAdGldIq9yIth3GjaFR" />
+=======
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="navigationResourceFile" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="ProjectId" id="1twNdOIr6rXrlyESkgE5cLVWW0a" />
+>>>>>>> refs/remotes/origin/develop
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -25,7 +65,11 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+<<<<<<< HEAD
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+=======
+    <property name="settings.editor.selected.configurable" value="memory.settings" />
+>>>>>>> refs/remotes/origin/develop
   </component>
   <component name="RunManager">
     <configuration default="true" type="AndroidJUnit" factoryName="Android JUnit">
@@ -35,7 +79,11 @@
         <option name="Android.Gradle.BeforeRunTask" enabled="true" />
       </method>
     </configuration>
+<<<<<<< HEAD
     <configuration name="app" type="AndroidRunConfigurationType" factoryName="Android App">
+=======
+    <configuration name="app" type="AndroidRunConfigurationType" factoryName="Android App" activateToolWindowBeforeRun="false">
+>>>>>>> refs/remotes/origin/develop
       <module name="fragmentlifecycle.app" />
       <option name="DEPLOY" value="true" />
       <option name="DEPLOY_APK_FROM_BUNDLE" value="false" />
@@ -98,18 +146,53 @@
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
+<<<<<<< HEAD
       <changelist id="f433b5bd-110a-4d58-9eca-a105facda951" name="Default Changelist" comment="" />
       <created>1623831909880</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1623831909880</updated>
+=======
+      <changelist id="2f17637c-ee8b-409e-bdc4-afc21e83cf6f" name="Default Changelist" comment="" />
+      <created>1623676277628</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1623676277628</updated>
+>>>>>>> refs/remotes/origin/develop
     </task>
     <servers />
   </component>
   <component name="WindowStateProjectService">
+<<<<<<< HEAD
     <state x="549" y="167" key="FileChooserDialogImpl" timestamp="1623832155765">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="549" y="167" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1623832155765" />
+=======
+    <state x="373" y="167" key="AndroidCreateResourceFileDialog" timestamp="1623765128840">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="373" y="167" key="AndroidCreateResourceFileDialog/0.0.1536.824@0.0.1536.824" timestamp="1623765128840" />
+    <state width="1491" height="599" key="GridCell.Tab.0.bottom" timestamp="1623767881039">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1491" height="599" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1623767881039" />
+    <state width="1491" height="599" key="GridCell.Tab.0.center" timestamp="1623767881038">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1491" height="599" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1623767881038" />
+    <state width="1491" height="599" key="GridCell.Tab.0.left" timestamp="1623767881038">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1491" height="599" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1623767881038" />
+    <state width="1491" height="599" key="GridCell.Tab.0.right" timestamp="1623767881039">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1491" height="599" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1623767881039" />
+    <state x="301" y="57" key="SettingsEditor" timestamp="1623766046064">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="301" y="57" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1623766046064" />
+>>>>>>> refs/remotes/origin/develop
   </component>
 </project>

@@ -1,0 +1,2 @@
+com/snkz/fragmentlifecycle/BuildConfig.java
+ com.snkz.fragmentlifecycle.BuildConfig
