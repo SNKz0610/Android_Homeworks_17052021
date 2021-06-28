@@ -1,2 +1,18 @@
 com/snkz/fragmentlifecycle/BuildConfig.java
  com.snkz.fragmentlifecycle.BuildConfig
+com/snkz/fragmentlifecycle/databinding/FragmentABinding.java
+ com.snkz.fragmentlifecycle.databinding.FragmentABinding
+com/snkz/fragmentlifecycle/FragmentADirections.java
+ com.snkz.fragmentlifecycle.FragmentADirections
+ com.snkz.fragmentlifecycle.FragmentADirections$1
+ com.snkz.fragmentlifecycle.FragmentADirections$ActionFragmentAToFragmentB
+com/snkz/fragmentlifecycle/DataBindingTriggerClass.java
+ com.snkz.fragmentlifecycle.DataBindingTriggerClass
+com/snkz/fragmentlifecycle/databinding/FragmentBBinding.java
+ com.snkz.fragmentlifecycle.databinding.FragmentBBinding
+com/snkz/fragmentlifecycle/FragmentBDirections.java
+ com.snkz.fragmentlifecycle.FragmentBDirections
+com/snkz/fragmentlifecycle/FragmentBArgs.java
+ com.snkz.fragmentlifecycle.FragmentBArgs
+ com.snkz.fragmentlifecycle.FragmentBArgs$1
+ com.snkz.fragmentlifecycle.FragmentBArgs$Builder

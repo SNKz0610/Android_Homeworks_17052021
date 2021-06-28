@@ -1815,8 +1815,8 @@ id blocking
 id bottom
 id bounce
 id buttonPanel
-id button_FragmentA_changefragment
-id button_FragmentB_backtofragmenta
+id button_fragA_submit
+id button_fragB_backtofragA
 id cache_measures
 id cancel_action
 id cancel_button
@@ -1850,6 +1850,7 @@ id counterclockwise
 id custom
 id customPanel
 id cut
+id dataBinding
 id date_picker_actions
 id decelerate
 id decelerateAndComplete
@@ -1880,6 +1881,9 @@ id easeIn
 id easeInOut
 id easeOut
 id edit_query
+id edittext_fragA_address
+id edittext_fragA_birthday
+id edittext_fragA_name
 id elastic
 id end
 id endToStart
@@ -1939,6 +1943,7 @@ id leftToRight
 id line1
 id line3
 id linear
+id linearlayout_fragA_login
 id listMode
 id list_item
 id main_graph
@@ -2009,6 +2014,8 @@ id notification_main_column
 id notification_main_column_container
 id off
 id on
+id onAttachStateChangeListener
+id onDateChanged
 id outline
 id outward
 id packed
@@ -2119,6 +2126,7 @@ id textSpacerNoButtons
 id textSpacerNoTitle
 id textStart
 id textTop
+id textWatcher
 id text_input_end_icon
 id text_input_error_icon
 id text_input_start_icon
@@ -2128,7 +2136,7 @@ id textinput_helper_text
 id textinput_placeholder
 id textinput_prefix_text
 id textinput_suffix_text
-id textview_FragmentA_title
+id textview_fragB_displayinf
 id time
 id title
 id titleDividerNoCustom
